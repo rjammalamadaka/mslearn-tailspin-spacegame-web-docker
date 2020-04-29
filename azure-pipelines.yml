@@ -5,6 +5,9 @@ variables:
   buildConfiguration: 'Release'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
+  WebAppName: 'ravidocker'
+  RegistryName: 'dockerravi'
+
 
 stages:
 - stage: 'Build'
